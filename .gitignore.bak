@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+
+*.bak
+<<<<<<< HEAD
+*.prefs
+=======
+*
+!.gitignore
+>>>>>>> parent of 575d89d... 我的ignore文件 忽略所有、、、
+.project
+*.prefs
+=======
+>>>>>>> parent of 5e4a871... 修一修
