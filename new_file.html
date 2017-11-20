@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+</html>
+<script src= "js/jquery.min.js"> </script>
+<script>
+	$.ajax({
+		type:"get",
+		url:"http://121.42.162.14/smoke/yuyi.php?msg=百度搜索",
+		async:true,
+		success:function(data)
+		{
+			alert(data);
+		}
+	});
+</script>
